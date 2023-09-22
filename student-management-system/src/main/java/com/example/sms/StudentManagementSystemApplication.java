@@ -20,12 +20,12 @@ public class StudentManagementSystemApplication implements CommandLineRunner{
 	@Override
 	public void run(String... args) throws Exception {
 		// TODO Auto-generated method stub
-//		Student s1=new Student("V","K","vk@gmail.com",9.21);
-//		sr.save(s1);
-//		Student s2=new Student("B","K","bk@gmail.com",9.22);
-//		sr.save(s2);
-//		Student s3=new Student("J","K","jk@gmail.com",9.23);
-//		sr.save(s3);
+		Student s1=new Student("V","K","vk@gmail.com",9.21);
+		sr.save(s1);
+		Student s2=new Student("B","K","bk@gmail.com",9.22);
+		sr.save(s2);
+		Student s3=new Student("J","K","jk@gmail.com",9.23);
+		sr.save(s3);
 		
 		
 		
